@@ -23,6 +23,7 @@ import {
   jobit,
   tripguide,
   threejs,
+  graph,
 } from "../assets";
 
 export const navLinks = [
@@ -42,15 +43,15 @@ export const navLinks = [
 
 const services = [
   {
-    title: "Web Developer",
-    icon: web,
+    title: "Machine Learning",
+    icon: meta,
   },
   {
-    title: "React Developer",
-    icon: mobile,
+    title: "Data Scientist",
+    icon: graph,
   },
   {
-    title: "Backend Developer",
+    title: "NLP",
     icon: backend,
   },
   {
@@ -117,7 +118,7 @@ const technologies = [
 const experiences = [
   {
     title: "Software Developer",
-    company_name: "ReallyBrief",
+    company_name: "Microsoft",
     icon: tesla,
     iconBg: "#E6DEDD",
     date: "Jun 2023 - Present",
