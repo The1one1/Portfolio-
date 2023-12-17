@@ -32,6 +32,11 @@ import tripguide from "./tripguide.png";
 import graph from "./graph.png";
 import speech_icon from "./speech_icon.png";
 import Microsoft from "./company/Microsoft.png";
+import TensorFlow from "./tech/TensorFlow.png";
+import Pytorch from "./tech/Pytorch.png";
+import Python from "./tech/Python.png";
+import c_sharp from "./tech/c_sharp.png";
+import c from "./tech/c.png";
 
 export {
   logo,
@@ -65,4 +70,9 @@ export {
   graph,
   speech_icon,
   Microsoft,
+  TensorFlow,
+  Pytorch,
+  Python,
+  c_sharp,
+  c,
 };
