@@ -24,6 +24,8 @@ import {
   tripguide,
   threejs,
   graph,
+  speech_icon,
+  Microsoft,
 } from "../assets";
 
 export const navLinks = [
@@ -52,7 +54,7 @@ const services = [
   },
   {
     title: "NLP",
-    icon: backend,
+    icon: speech_icon,
   },
   {
     title: "Content Creator",
@@ -117,29 +119,29 @@ const technologies = [
 
 const experiences = [
   {
-    title: "Software Developer",
+    title: "Software Developer Intern",
     company_name: "Microsoft",
-    icon: tesla,
+    icon: Microsoft,
     iconBg: "#E6DEDD",
-    date: "Jun 2023 - Present",
+    date: "May 2023 - July 2023",
     points: [
-      "Responsible for spearheading the design and development of engaging and responsive web pages.",
-      "Integrating AI functionalities, delivering innovative solutions to address complex challenges",
-      "Creating and maintaining backend components, including designing and developing APIs.",
-      "Managing databases to ensure seamless data flow and optimal system performance.",
-      "Technologies Used:- Next.js, Tailwind CSS, Node.js, MongoDB."
+      "Developed robust Data Loss Prevention (DLP) policies, bolstering security against unauthorized access.",
+      "Engineered a Dynamic Link Library (DLL) for recommending Sensitive Information Types (SIT), enhancing data protection.",
+      "Recognized with an internship certificate from Microsoft for innovative contributions in integrating DL models for enhanced data security.",
+      "Technologies Used:- c#, Python, REST APIs , Deep Learninig, Microsoft Cognitive Services, XAML",
     ],
   },
   {
-    title: "React.js Developer",
+    title: "Machine Learning Engineer",
     company_name: "Fiverr",
     icon: starbucks,
     iconBg: "#383E56",
-    date: "Dec 2022 - Present",
+    date: "Oct 2023 - Present",
     points: [
-      "Translated Figma designs into fully functional websites, specializing in frontend development.",
-      "Designed and implemented numerous landing pages with a focus on user experience and conversion optimization.",
-      "Created websites for AI-based applications, showcasing an understanding of integrating AI technologies into frontend design.",
+      "Expert in developing custom AI/ML models, leveraging GPT, DALL-E, and Stable Diffusion.",
+      "Proficient in designing secure RESTful APIs for seamless integration.",
+      "Experienced in deploying models on cloud platforms or local servers for scalability and security.",
+      "Specialized in integrating AI/ML models into websites for enhanced user experiences.",
     ],
   },
   // {

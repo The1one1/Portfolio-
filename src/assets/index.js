@@ -30,6 +30,8 @@ import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 import graph from "./graph.png";
+import speech_icon from "./speech_icon.png";
+import Microsoft from "./company/Microsoft.png";
 
 export {
   logo,
@@ -61,4 +63,6 @@ export {
   jobit,
   tripguide,
   graph,
+  speech_icon,
+  Microsoft,
 };
