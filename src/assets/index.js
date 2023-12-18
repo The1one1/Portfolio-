@@ -29,6 +29,7 @@ import tesla from "./company/tesla.png";
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
+
 import graph from "./graph.png";
 import speech_icon from "./speech_icon.png";
 import Microsoft from "./company/Microsoft.png";
@@ -38,6 +39,8 @@ import Python from "./tech/Python.png";
 import c_sharp from "./tech/c_sharp.png";
 import c from "./tech/c.png";
 import visual_decor from "./visual_decor.png";
+import recommendation from "./recommendation.png";
+import streamlit from "./streamlit.jpeg";
 
 export {
   logo,
@@ -77,4 +80,6 @@ export {
   c_sharp,
   c,
   visual_decor,
+  recommendation,
+  streamlit,
 };

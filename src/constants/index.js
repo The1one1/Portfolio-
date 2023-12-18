@@ -31,7 +31,9 @@ import {
   Python,
   c_sharp,
   c,
-  visual_decor
+  visual_decor,
+  recommendation,
+  streamlit,
 } from "../assets";
 
 export const navLinks = [
@@ -105,10 +107,10 @@ const technologies = [
     name: "MongoDB",
     icon: mongodb,
   },
-  // {
-  //   name: "Three JS",
-  //   icon: threejs,
-  // },
+  {
+    name: "Streamlit",
+    icon: streamlit,
+  },
   {
     name: "git",
     icon: git,
@@ -222,10 +224,10 @@ const projects = [
   {
     name: "Visual Decor",
     description:
-      "Clothing recommendation system with personalized styling and a virtual try-on feature",
+      "Created an AI platform for virtual interior and exterior staging and redesign.",
     tags: [
       {
-        name: "Machine Learning",
+        name: "html/css/javascript",
         color: "blue-text-gradient",
       },
       {
@@ -233,54 +235,58 @@ const projects = [
         color: "green-text-gradient",
       },
       {
-        name: "Tensorflow",
+        name: "ML: Tensorflow",
         color: "pink-text-gradient",
       },
     ],
     image: visual_decor,
-    source_code_link: "https://github.com/The1one1/DressMate.git",
+    source_code_link: "https://github.com/The1one1/aiai.studio.git",
   },
   {
     name: "DressMate",
     description:
-      "IIITL Campus Service Platform: Buy, Sell, Share seamlessly",
+      "Clothing recommendation with personalized styling and a virtual try-on feature",
     tags: [
       {
-        name: "html",
+        name: "Streamlit",
         color: "blue-text-gradient",
       },
       {
-        name: "django",
+        name: "Deep Learning",
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "Keras",
         color: "pink-text-gradient",
       },
+      {
+        name: "MongoDB",
+        color: "orange-text-gradient",
+      }
     ],
     image: jobit,
-    source_code_link: "https://github.com/HemalDesai/mini_project",
+    source_code_link: "https://github.com/The1one1/DressMate.git",
   },
   {
-    name: "Heera",
+    name: "Movie Recommendation System",
     description:
-      "Efficiently Track and Manage Diamond Polishing Activities",
+      "Created a movie recommendation system using the MovieLens dataset",
     tags: [
       {
-        name: "nextjs",
+        name: "Streamlit",
         color: "blue-text-gradient",
       },
       {
-        name: "firebase",
+        name: "MongoDB",
         color: "green-text-gradient",
       },
       {
-        name: "css",
-        color: "pink-text-gradient",
-      },
+        name: "Machine Learning",
+        color: "orange-text-gradient",
+      }
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/HemalDesai/Heera",
+    image: recommendation,
+    source_code_link: "https://github.com/The1one1/Movie_Recommendation_System.git",
   },
 ];
 
