@@ -222,7 +222,7 @@ const projects = [
   {
     name: "Visual Decor",
     description:
-      "Unleashing Creativity and Visual Collaboration",
+      "Clothing recommendation system with personalized styling and a virtual try-on feature",
     tags: [
       {
         name: "Machine Learning",
@@ -238,10 +238,10 @@ const projects = [
       },
     ],
     image: visual_decor,
-    source_code_link: "https://github.com/HemalDesai/Artzy",
+    source_code_link: "https://github.com/The1one1/DressMate.git",
   },
   {
-    name: "IIITL-Connect",
+    name: "DressMate",
     description:
       "IIITL Campus Service Platform: Buy, Sell, Share seamlessly",
     tags: [
