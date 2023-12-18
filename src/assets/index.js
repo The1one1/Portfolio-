@@ -37,6 +37,7 @@ import Pytorch from "./tech/Pytorch.png";
 import Python from "./tech/Python.png";
 import c_sharp from "./tech/c_sharp.png";
 import c from "./tech/c.png";
+import visual_decor from "./visual_decor.png";
 
 export {
   logo,
@@ -75,4 +76,5 @@ export {
   Python,
   c_sharp,
   c,
+  visual_decor,
 };

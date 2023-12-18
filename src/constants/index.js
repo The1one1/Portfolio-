@@ -31,6 +31,7 @@ import {
   Python,
   c_sharp,
   c,
+  visual_decor
 } from "../assets";
 
 export const navLinks = [
@@ -219,24 +220,24 @@ const experiences = [
 
 const projects = [
   {
-    name: "Artzy",
+    name: "Visual Decor",
     description:
       "Unleashing Creativity and Visual Collaboration",
     tags: [
       {
-        name: "react",
+        name: "Machine Learning",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "Stable Diffusion",
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "Tensorflow",
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
+    image: visual_decor,
     source_code_link: "https://github.com/HemalDesai/Artzy",
   },
   {
